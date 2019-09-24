@@ -19,7 +19,6 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>header</h1>
         <header className="App-header">
           <h1>React Progress Bar</h1>
           <DisplayProgress value={this.state.value} />
