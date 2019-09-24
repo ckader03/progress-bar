@@ -2,21 +2,32 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+input {
+  width: 550px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bar {
+  background: #eee;
+  height: 10px;
+  border-radius: 30px;
+  width: 550px;
+  margin: 20px auto;
 }
 
-.App-link {
-  color: #09d3ac;
+.bar div {
+  height: 10px;
+  transition: all 0.8s cubic-bezier(0.77, 0, 0.175, 1) 0.1s;
+  border-radius: 30px;
+}
+
+.low {
+  background: #da5347;
+}
+
+.medium {
+  background: #ffcf50;
+}
+
+.high {
+  background: #75ba50;
 }
